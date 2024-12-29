@@ -1,4 +1,4 @@
-# Psych Engine Build Instructions
+# SEngine <i>(Santiago Engine)</i> Build Instructions
 
 * [Dependencies](#dependencies)
 * [Building](#building)
@@ -10,7 +10,7 @@
 - `git`
 - (Windows-only) Microsoft Visual Studio Community
 - (Linux-only) VLC
-- Haxe (4.2.5 or greater)
+- Haxe (4.3.6 or greater)
 
 ---
 
@@ -22,7 +22,7 @@ For Haxe, you can get it from [the Haxe website](https://haxe.org/download/)
 
 ---
 
-**(Next step is Windows only, Mac users may skip this)**
+**(Next step is Windows only, _Mac & Linux users may skip this_)**
 
 After installing `git`, it is RECOMMENDED that you
 open up a command prompt window and type the following
@@ -36,14 +36,17 @@ this will use `curl`, which is a tool for downloading certain files through the 
 to Download the binary for Microsoft Visual Studio with the specific package you need for compiling on Windows.
 
 (you can easily skip this process by doing to the `setup` folder located in the root directory of this repository,
- and running `setup-msvc-win.bat`)
+ and running `msvc-windows.bat`)
 
 ---
 ### Linux Distributions
 
 For getting all the packages you need, distros often have similar or near identical names
 
-for pretty much every distro, install the `git`, `haxe`, and `vlc` packages
+for pretty much every distro, install the `git`, `haxe` and `vlc` packages
+> Note: This can probably be skipped if you installed Arch Linux via `archinstall` as it preinstalls vlc ahead of time, but if you still get errors involving LibVLC continue below to the Arch instructions.
+
+> In the event you get this error: `libvlc.so.5: file format not recognized; treating as linker script` and then `libvlc.so.5:0: syntax error` then you need to use HxCodec 3.0.2
 
 Commands will vary depending on your distro, refer to your package manager's install command syntax.
 ### Installation for common Linux distros
@@ -79,7 +82,7 @@ head into the `setup` folder located in the root directory of this repository, a
 
 ### "Which setup file?"
 
-It depends on your Operating System, for Windows, run `setup-windows.bat`, for anything else, `setup-unix.sh`
+It depends on your Operating System. for Windows, run `windows.bat`, for anything else, `unix.sh`
 
 sit back, relax, wait for haxelib to do its magic, and once everything is done, run
 
@@ -92,16 +95,20 @@ where `<platform>` gets replaced with `windows`, `linux`, or `mac`
 ### "It's taking a while, should I be worried?"
 
 No, that is normal, when you compile flixel games for the first time, it usually takes around 5 to 10 minutes,
-it really depends on how powerful your hrdware is
+it really depends on how powerful your hardware is
 
 ### "I had an error saying that 'hxCodec' could not be found!"
 
-Refer to Issue ShadowMario/FNF-PsychEngine#12770.
+Refer to Issue ShadowMario/FNF-PsychEngine#12770, or use hxCodec 2.5.1.
 
 ### "I had an error relating to g++ on Linux!"
 
 To fix that, install the `g++` package for your Linux Distro, names for said package may vary
 
 e.g: Fedora is `gcc-c++`, Gentoo is `sys-devel/gcc`, and so on.
+
+### "I have an error saying ApplicationMain.exe : fatal error LNK1120: 1 unresolved externals!"
+
+Run `lime test cpp -clean` again, or delete the export (more specifically, export/obj) folder and compile again.
 
 ---
