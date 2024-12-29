@@ -12,11 +12,20 @@
   <b>SEngine <i>(Santiago Engine)</i> was an engine that i made for fun. Not much else..</b>
 </h3>
 
+<!--repo size fuck-->
 <p align="center">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/SantiagoCalebe/SantiagoEngine">
 <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/SantiagoCalebe/SantiagoEngine">
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SantiagoCalebe/SantiagoEngine">
 </p>
+
+<!--lua functions-->
+<h1 align='center'>Lua functions</h1>
+<h1 align='center'>
+  <a href="https://github.com/SantiagoCalebe/SantiagoEngine/blob/main/CustomizationPT.md">[PT-BR]</a> 
+  <a href="https://github.com/SantiagoCalebe/SantiagoEngine/blob/main/CustomizationEN.md">[EN-US]</a>
+</h1>
+
 
 
 <!--credits-->
