@@ -20,16 +20,6 @@
 <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/SantiagoCalebe/SantiagoEngine">
 </p>
 
-
-<!--credits-->
-<p align="center">
-<img src ="https://github.com/user-attachments/assets/c06dd33d-60c2-4a5a-9ae1-e8b348ed4d99">
-</p>
-
-<p align="center">
-<img src ="https://github.com/user-attachments/assets/b1b904d1-ce95-42a9-84aa-2323241e735a">
-</p>
-
 ![scr1](https://github.com/user-attachments/assets/39add091-8cc5-4b3c-a40f-214281b10367)
 ![scr2](https://github.com/user-attachments/assets/6205d79a-84b3-448e-9cbf-a653d27016c7)
 ![scr3](https://github.com/user-attachments/assets/48c81bc3-063c-47da-ad1d-6dbd85afd8f6)
