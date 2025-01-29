@@ -1,3 +1,11 @@
+<h1>Discontinuation Note</h1>
+<p>Santiago here. This is a official note that Santiago Engine is no longer being worked on.</p>
+<p>I hope i don't be a victim of "Psych Engine fork" jokes, ik the engine started and it's ending very very soon but..</p>
+<p>I want you guys to understand that there is no sense of making a new fork engine in 2025. That's true.</p>
+<p>Thank you for one month of support.</p>
+<p align='right'>- Santiago.</p>
+
+
 <p align="center">
 <img src ="https://github.com/user-attachments/assets/b1b904d1-ce95-42a9-84aa-2323241e735a">
 </p>
